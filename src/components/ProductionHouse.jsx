@@ -46,10 +46,10 @@ const ProductionHouse = () => {
             rounded-lg hover:scale-110 transition-all duration-300
             ease-in-out cursor-pointer relative shadow-xl 
             shadow-gray-800'>
-                 <video src={Items.video} autoPlay loop playsInline muted 
+                <video src={Items.video} autoPlay loop playsInline muted 
             className='absolute z-0  top-0 rounded-md 
             opacity-0 hover:opacity-80'/> 
-                <img src={Items.image} className='w-[270px] h-[140px] rounded-lg z-[1] opacity-100'/>
+                <img src={Items.image} className='rounded-lg z-[1] opacity-100'/>
             </div>
         ))}
     </div>

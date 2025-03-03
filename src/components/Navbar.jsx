@@ -4,7 +4,9 @@ import profileLogo from '../assets/images/profile_logo.png'
 import { HiHome, HiMagnifyingGlass, HiStar, HiPlayCircle, HiTv } from 'react-icons/hi2'
 import { HiPlus, HiDotsVertical } from 'react-icons/hi'
 import NavbarItem from './NavbarItem'
+
 const Navbar = () => {
+
   const [toggle,setToggle]=useState(false);
   const menu=[
     {
@@ -54,7 +56,7 @@ const Navbar = () => {
             </div>
           </div>
       </div>
-      <img src={profileLogo} alt='profile_logo' className='w-[40px] rounded-full'/>
+      <img src={profileLogo} alt='profile_logo' className='w-[40px] rounded-full hover:cursor-pointer mr-5 scale-125'/>
     </div>
   )
 }

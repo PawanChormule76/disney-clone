@@ -1,3 +1,15 @@
 #root{
   background-color: #131520;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3f54; /* Lighter shade for contrast */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #131520; /* Matches your website background */
+}
